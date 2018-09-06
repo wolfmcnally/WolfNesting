@@ -1,9 +1,8 @@
 //
-//  Tests.swift
-//  WolfNesting_Tests
+//  macOSViewNesting.swift
+//  WolfNesting
 //
-//  Created by Wolf McNally on 09/05/2018.
-//  Copyright © 2018 Wolf McNally.
+//  Created by Wolf McNally on 9/6/18.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -23,8 +22,20 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-import XCTest
-import WolfNesting
+#if canImport(AppKit)
 
-class Tests: XCTestCase {
+import AppKit
+
+/// Adds the array of views as subviews of the parent view.
+@discardableResult public func => (lhs: NSView, rhs: [NSView]) -> NSView {
+    rhs.forEach { lhs.addSubview($0) }
+    return lhs
 }
+
+/// Adds the array of views as arranged subviews of the parent stack view.
+@discardableResult public func => (lhs: NSStackView, rhs: [NSView]) -> NSStackView {
+    rhs.forEach { lhs.addArrangedSubview($0) }
+    return lhs
+}
+
+#endif

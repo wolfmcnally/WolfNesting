@@ -1,6 +1,6 @@
 //
-//  Tests.swift
-//  WolfNesting_Tests
+//  NestingOperator.swift
+//  WolfNesting
 //
 //  Created by Wolf McNally on 09/05/2018.
 //  Copyright © 2018 Wolf McNally.
@@ -23,8 +23,10 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-import XCTest
-import WolfNesting
-
-class Tests: XCTestCase {
+precedencegroup NestingOperatorPrecedence {
+    associativity: left
+    higherThan: AssignmentPrecedence
+    lowerThan: ComparisonPrecedence
 }
+
+infix operator => : NestingOperatorPrecedence
