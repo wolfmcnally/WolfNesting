@@ -1,5 +1,5 @@
 PODS:
-  - WolfNesting (0.1.0)
+  - WolfNesting (1.0.1)
 
 DEPENDENCIES:
   - WolfNesting (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WolfNesting: ca2c24726bce3d4d384aeaccd0ca9761d4f4be53
+  WolfNesting: fd76ef4ea6ae2d78d957fd0bea3b7cbb5432a4df
 
 PODFILE CHECKSUM: 873989263a2c4024470dda606cff56907ba7a943
 

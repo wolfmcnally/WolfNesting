@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03CB5E752141DCAA0066F526 /* macOSViewNesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CB5E742141DCAA0066F526 /* macOSViewNesting.swift */; };
-		03CB5E772141DD4A0066F526 /* SpriteKitNodeNesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CB5E762141DD4A0066F526 /* SpriteKitNodeNesting.swift */; };
-		03CB5E792141DE100066F526 /* SceneKitNodeNesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CB5E782141DE100066F526 /* SceneKitNodeNesting.swift */; };
+		23FAFF643B72ABE7F9618134E8A1A214 /* iOSViewNesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E8139B2FE05261926479F2F6E30FCE /* iOSViewNesting.swift */; };
 		311505C33AA4C13055725B52EEAD8BD9 /* Pods-WolfNesting_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 794B9E11D7C96582386D562940FB0F22 /* Pods-WolfNesting_Tests-dummy.m */; };
-		373D6C82A74B2A9BE366AA55591E6D26 /* WolfNesting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F741F64EC47598096F5B86635282A1E4 /* WolfNesting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		373D6C82A74B2A9BE366AA55591E6D26 /* WolfNesting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C2DE2943D9381C50300884A1459463 /* WolfNesting-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		438782A6D1C898F84773B26F6E131E41 /* Pods-WolfNesting_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E64E0050EF1FDE1B5D762B60B8D184 /* Pods-WolfNesting_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B4201385EC1F1B3A0D6066C030D474E /* macOSViewNesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B455A9E8EEF9142B03989D4A4E20FA5 /* macOSViewNesting.swift */; };
 		508E0C457FB45AB9FE00D754489AF836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		96ACBF8FE348F8086FC3AF76C0A63F3C /* WolfNesting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B5DBC2DD0FFAD1BCBEC166DB8DC1B5 /* WolfNesting-dummy.m */; };
-		ADAEDB2EDE110B4E19983088CDF7FCAC /* iOSViewNesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFF9D41FC41BB27CA9064D92A6593EE /* iOSViewNesting.swift */; };
+		5630FF3106406F7B8EAF34E7A7C183AB /* SceneKitNodeNesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925CE3DC2E5FDB06829B1D41680F919F /* SceneKitNodeNesting.swift */; };
+		7C8101F2645662AC9DC8CF68BB8A71E8 /* SpriteKitNodeNesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A0CB1363F74C8852DF0FDD1BA0B790 /* SpriteKitNodeNesting.swift */; };
 		C47C7A88E278C23BBBF42BF7DDFD1DBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		D0B3088F0EC44FCC6B81063AD310C9B1 /* NestingOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174ABF30D477FBF2478D3F796A70A17 /* NestingOperator.swift */; };
+		E9B627F05F1136170952B1AC91FD0F9C /* WolfNesting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EBA00AB4EADD5025BC2B7E98CECBBC /* WolfNesting-dummy.m */; };
+		F0D493E1749C20DD0FE28574B16BFA73 /* NestingOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6D154A8BC69C8A5E853ADA9E4D5745 /* NestingOperator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,33 +31,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03CB5E742141DCAA0066F526 /* macOSViewNesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = macOSViewNesting.swift; path = WolfNesting/Classes/macOSViewNesting.swift; sourceTree = "<group>"; };
-		03CB5E762141DD4A0066F526 /* SpriteKitNodeNesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SpriteKitNodeNesting.swift; path = WolfNesting/Classes/SpriteKitNodeNesting.swift; sourceTree = "<group>"; };
-		03CB5E782141DE100066F526 /* SceneKitNodeNesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneKitNodeNesting.swift; path = WolfNesting/Classes/SceneKitNodeNesting.swift; sourceTree = "<group>"; };
-		1174ABF30D477FBF2478D3F796A70A17 /* NestingOperator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NestingOperator.swift; path = WolfNesting/Classes/NestingOperator.swift; sourceTree = "<group>"; };
+		0B455A9E8EEF9142B03989D4A4E20FA5 /* macOSViewNesting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = macOSViewNesting.swift; path = WolfNesting/Classes/macOSViewNesting.swift; sourceTree = "<group>"; };
+		14E8139B2FE05261926479F2F6E30FCE /* iOSViewNesting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iOSViewNesting.swift; path = WolfNesting/Classes/iOSViewNesting.swift; sourceTree = "<group>"; };
+		1C3DC09C702941E8D341C91F35693864 /* WolfNesting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WolfNesting-prefix.pch"; sourceTree = "<group>"; };
 		1F8CA275E05F5E3E415EBC79DD677531 /* Pods-WolfNesting_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WolfNesting_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2E7832096A302E536B354FC46443094D /* Pods-WolfNesting_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WolfNesting_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3962465D9ABCFAA2D3EEAB222C895520 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41415CE4A4E3B57CCF1E1DD6727231C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5311E43039CC1F5B9EA05306030CC70A /* WolfNesting.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WolfNesting.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		567ECB4B6EA601AAA67AF83127CFF568 /* WolfNesting-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WolfNesting-Info.plist"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		66C4D93BE9E11D8FF8F55C3C8F0CE277 /* WolfNesting-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WolfNesting-Info.plist"; sourceTree = "<group>"; };
+		5FF3FCCC0949DA8DBC7B5D1B8FE448DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		64A0CB1363F74C8852DF0FDD1BA0B790 /* SpriteKitNodeNesting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpriteKitNodeNesting.swift; path = WolfNesting/Classes/SpriteKitNodeNesting.swift; sourceTree = "<group>"; };
+		6B6D154A8BC69C8A5E853ADA9E4D5745 /* NestingOperator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NestingOperator.swift; path = WolfNesting/Classes/NestingOperator.swift; sourceTree = "<group>"; };
 		6F51ED1F2C8932979224E953B64BD388 /* Pods-WolfNesting_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WolfNesting_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		794B9E11D7C96582386D562940FB0F22 /* Pods-WolfNesting_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WolfNesting_Tests-dummy.m"; sourceTree = "<group>"; };
-		7E11239939ABC140337BFA3B4D092B37 /* WolfNesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WolfNesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88B5DBC2DD0FFAD1BCBEC166DB8DC1B5 /* WolfNesting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WolfNesting-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7973E61763CE618676FF2575540E09E6 /* WolfNesting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WolfNesting.modulemap; sourceTree = "<group>"; };
+		7E11239939ABC140337BFA3B4D092B37 /* WolfNesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WolfNesting.framework; path = WolfNesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C90D9B6E3B4A23C2E67C6D243B7688 /* WolfNesting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WolfNesting.xcconfig; sourceTree = "<group>"; };
+		91C2DE2943D9381C50300884A1459463 /* WolfNesting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WolfNesting-umbrella.h"; sourceTree = "<group>"; };
+		925CE3DC2E5FDB06829B1D41680F919F /* SceneKitNodeNesting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SceneKitNodeNesting.swift; path = WolfNesting/Classes/SceneKitNodeNesting.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		953352399BC5C10248E5BB5863C0C9A6 /* Pods-WolfNesting_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WolfNesting_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D0B9B5F022EA84BF19C19887B4B10C3 /* Pods-WolfNesting_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WolfNesting_Tests-Info.plist"; sourceTree = "<group>"; };
-		A55B5AA4411E5C46DCA02E4BFFC341B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		AFB30731E9ED75B8DC6D43B0C8CB61E8 /* Pods_WolfNesting_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WolfNesting_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB30731E9ED75B8DC6D43B0C8CB61E8 /* Pods_WolfNesting_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WolfNesting_Tests.framework; path = "Pods-WolfNesting_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E64E0050EF1FDE1B5D762B60B8D184 /* Pods-WolfNesting_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WolfNesting_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D0C2120B880C036C69A563D9425539C0 /* WolfNesting.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WolfNesting.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		DAFF9D41FC41BB27CA9064D92A6593EE /* iOSViewNesting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iOSViewNesting.swift; path = WolfNesting/Classes/iOSViewNesting.swift; sourceTree = "<group>"; };
 		DB37701C153B6C848F476ED71C329580 /* Pods-WolfNesting_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WolfNesting_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E3B2774B6F6E76F8E842AC8BDB00CCF1 /* WolfNesting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WolfNesting.modulemap; sourceTree = "<group>"; };
-		F0B1199541FF77D2EBFA5A9C5B0C43CC /* WolfNesting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WolfNesting.xcconfig; sourceTree = "<group>"; };
 		F5EFE512109FCCCD889A5CA038F12F3B /* Pods-WolfNesting_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WolfNesting_Tests.modulemap"; sourceTree = "<group>"; };
-		F741F64EC47598096F5B86635282A1E4 /* WolfNesting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WolfNesting-umbrella.h"; sourceTree = "<group>"; };
-		FA701DA176DF6A9F2FF53688E339DB2A /* WolfNesting-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WolfNesting-prefix.pch"; sourceTree = "<group>"; };
+		F6EBA00AB4EADD5025BC2B7E98CECBBC /* WolfNesting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WolfNesting-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +80,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DFBB5AF47CA9AF1DAC550627F762B0E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5A6039DC55714D40474A7AD9225F929 /* WolfNesting */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2186001ED435ADD3103A3126B662D087 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7973E61763CE618676FF2575540E09E6 /* WolfNesting.modulemap */,
+				86C90D9B6E3B4A23C2E67C6D243B7688 /* WolfNesting.xcconfig */,
+				F6EBA00AB4EADD5025BC2B7E98CECBBC /* WolfNesting-dummy.m */,
+				567ECB4B6EA601AAA67AF83127CFF568 /* WolfNesting-Info.plist */,
+				1C3DC09C702941E8D341C91F35693864 /* WolfNesting-prefix.pch */,
+				91C2DE2943D9381C50300884A1459463 /* WolfNesting-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WolfNesting";
+			sourceTree = "<group>";
+		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,33 +127,21 @@
 			path = "Target Support Files/Pods-WolfNesting_Tests";
 			sourceTree = "<group>";
 		};
-		70252D4B8C0EEAFE9BFAA153E8006202 /* Development Pods */ = {
+		6E8F2528410FA9E8D27DE2BB0F7A19A6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F41B412C384D71B8BC6E5227DF6846FB /* WolfNesting */,
+				5FF3FCCC0949DA8DBC7B5D1B8FE448DC /* LICENSE */,
+				41415CE4A4E3B57CCF1E1DD6727231C4 /* README.md */,
+				5311E43039CC1F5B9EA05306030CC70A /* WolfNesting.podspec */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		7755489BB0ED85B012A879373179B424 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E3B2774B6F6E76F8E842AC8BDB00CCF1 /* WolfNesting.modulemap */,
-				F0B1199541FF77D2EBFA5A9C5B0C43CC /* WolfNesting.xcconfig */,
-				88B5DBC2DD0FFAD1BCBEC166DB8DC1B5 /* WolfNesting-dummy.m */,
-				66C4D93BE9E11D8FF8F55C3C8F0CE277 /* WolfNesting-Info.plist */,
-				FA701DA176DF6A9F2FF53688E339DB2A /* WolfNesting-prefix.pch */,
-				F741F64EC47598096F5B86635282A1E4 /* WolfNesting-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WolfNesting";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				70252D4B8C0EEAFE9BFAA153E8006202 /* Development Pods */,
+				1DFBB5AF47CA9AF1DAC550627F762B0E /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				C257D5C4737D7371F8FF33D599A5997D /* Products */,
 				7FC43060EE935D6FE70F1F61769ADAF5 /* Targets Support Files */,
@@ -144,16 +154,6 @@
 				62B39336A4B36695B138198B377F52CA /* Pods-WolfNesting_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		B236C858B80EDE323B30533D7C9982A7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A55B5AA4411E5C46DCA02E4BFFC341B0 /* LICENSE */,
-				3962465D9ABCFAA2D3EEAB222C895520 /* README.md */,
-				D0C2120B880C036C69A563D9425539C0 /* WolfNesting.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -173,16 +173,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F41B412C384D71B8BC6E5227DF6846FB /* WolfNesting */ = {
+		C5A6039DC55714D40474A7AD9225F929 /* WolfNesting */ = {
 			isa = PBXGroup;
 			children = (
-				1174ABF30D477FBF2478D3F796A70A17 /* NestingOperator.swift */,
-				DAFF9D41FC41BB27CA9064D92A6593EE /* iOSViewNesting.swift */,
-				03CB5E742141DCAA0066F526 /* macOSViewNesting.swift */,
-				03CB5E762141DD4A0066F526 /* SpriteKitNodeNesting.swift */,
-				03CB5E782141DE100066F526 /* SceneKitNodeNesting.swift */,
-				B236C858B80EDE323B30533D7C9982A7 /* Pod */,
-				7755489BB0ED85B012A879373179B424 /* Support Files */,
+				14E8139B2FE05261926479F2F6E30FCE /* iOSViewNesting.swift */,
+				0B455A9E8EEF9142B03989D4A4E20FA5 /* macOSViewNesting.swift */,
+				6B6D154A8BC69C8A5E853ADA9E4D5745 /* NestingOperator.swift */,
+				925CE3DC2E5FDB06829B1D41680F919F /* SceneKitNodeNesting.swift */,
+				64A0CB1363F74C8852DF0FDD1BA0B790 /* SpriteKitNodeNesting.swift */,
+				6E8F2528410FA9E8D27DE2BB0F7A19A6 /* Pod */,
+				2186001ED435ADD3103A3126B662D087 /* Support Files */,
 			);
 			name = WolfNesting;
 			path = ../..;
@@ -215,7 +215,7 @@
 			buildConfigurationList = BEFC8A231F945ACECBEE2B284A123647 /* Build configuration list for PBXNativeTarget "WolfNesting" */;
 			buildPhases = (
 				1987CBACE94BC721DD71DD8D510A81AD /* Headers */,
-				39BBD22682A2CBAF537FCDBFF0234C0C /* Sources */,
+				7493302BFA8E4B1B5036E6D904FF40B6 /* Sources */,
 				251EEBDF8D341B97586A501F5BA56A0F /* Frameworks */,
 				5782854C064321FA990CDF9330E6759F /* Resources */,
 			);
@@ -300,16 +300,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39BBD22682A2CBAF537FCDBFF0234C0C /* Sources */ = {
+		7493302BFA8E4B1B5036E6D904FF40B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03CB5E772141DD4A0066F526 /* SpriteKitNodeNesting.swift in Sources */,
-				ADAEDB2EDE110B4E19983088CDF7FCAC /* iOSViewNesting.swift in Sources */,
-				03CB5E792141DE100066F526 /* SceneKitNodeNesting.swift in Sources */,
-				D0B3088F0EC44FCC6B81063AD310C9B1 /* NestingOperator.swift in Sources */,
-				96ACBF8FE348F8086FC3AF76C0A63F3C /* WolfNesting-dummy.m in Sources */,
-				03CB5E752141DCAA0066F526 /* macOSViewNesting.swift in Sources */,
+				23FAFF643B72ABE7F9618134E8A1A214 /* iOSViewNesting.swift in Sources */,
+				4B4201385EC1F1B3A0D6066C030D474E /* macOSViewNesting.swift in Sources */,
+				F0D493E1749C20DD0FE28574B16BFA73 /* NestingOperator.swift in Sources */,
+				5630FF3106406F7B8EAF34E7A7C183AB /* SceneKitNodeNesting.swift in Sources */,
+				7C8101F2645662AC9DC8CF68BB8A71E8 /* SpriteKitNodeNesting.swift in Sources */,
+				E9B627F05F1136170952B1AC91FD0F9C /* WolfNesting-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,11 +325,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06B74B8573354CADD8D63CE91796E16C /* Release */ = {
+		3B5FBF4297869026F18DEBE707017475 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0B1199541FF77D2EBFA5A9C5B0C43CC /* WolfNesting.xcconfig */;
+			baseConfigurationReference = 86C90D9B6E3B4A23C2E67C6D243B7688 /* WolfNesting.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -342,7 +341,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/WolfNesting/WolfNesting-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/WolfNesting/WolfNesting-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WolfNesting/WolfNesting.modulemap";
 				PRODUCT_MODULE_NAME = WolfNesting;
@@ -350,7 +349,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -423,46 +423,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		9CF63267E6AEB841FCB5CD49DCE51D33 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0B1199541FF77D2EBFA5A9C5B0C43CC /* WolfNesting.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WolfNesting/WolfNesting-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WolfNesting/WolfNesting-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WolfNesting/WolfNesting.modulemap";
-				PRODUCT_MODULE_NAME = WolfNesting;
-				PRODUCT_NAME = WolfNesting;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		C92782E717C52E3633C9A5F211E7987A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -587,6 +555,38 @@
 			};
 			name = Release;
 		};
+		FBD7381F9566265E919FA3813506E09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C90D9B6E3B4A23C2E67C6D243B7688 /* WolfNesting.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WolfNesting/WolfNesting-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WolfNesting/WolfNesting-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WolfNesting/WolfNesting.modulemap";
+				PRODUCT_MODULE_NAME = WolfNesting;
+				PRODUCT_NAME = WolfNesting;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -611,8 +611,8 @@
 		BEFC8A231F945ACECBEE2B284A123647 /* Build configuration list for PBXNativeTarget "WolfNesting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9CF63267E6AEB841FCB5CD49DCE51D33 /* Debug */,
-				06B74B8573354CADD8D63CE91796E16C /* Release */,
+				FBD7381F9566265E919FA3813506E09C /* Debug */,
+				3B5FBF4297869026F18DEBE707017475 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
