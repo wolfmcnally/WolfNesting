@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'WolfNesting'
-    s.version          = '1.0.2'
+    s.version          = '2.0.0'
     s.summary          = 'An operator for easily and visually creating nested object hierarchies.'
 
     s.description      = <<-DESC
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
     s.source_files = 'WolfNesting/Classes/**/*'
 
-    s.swift_version = '4.2'
+    s.swift_version = '5.0'
 
     s.ios.deployment_target = '9.3'
     s.macos.deployment_target = '10.13'

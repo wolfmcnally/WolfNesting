@@ -1,6 +1,0 @@
-framework module WolfNesting {
-  umbrella header "WolfNesting-umbrella.h"
-
-  export *
-  module * { export * }
-}
