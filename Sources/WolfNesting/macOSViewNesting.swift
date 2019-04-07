@@ -33,6 +33,7 @@ import AppKit
 }
 
 /// Adds the array of views as arranged subviews of the parent stack view.
+@available(OSX 10.11, *)
 @discardableResult public func => (lhs: NSStackView, rhs: [NSView]) -> NSStackView {
     rhs.forEach { lhs.addArrangedSubview($0) }
     return lhs

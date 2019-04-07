@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'WolfNesting'
-    s.version          = '2.0.0'
+    s.version          = '2.0.1'
     s.summary          = 'An operator for easily and visually creating nested object hierarchies.'
 
     s.description      = <<-DESC
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.author           = { 'Wolf McNally' => 'wolf@wolfmcnally.com' }
     s.source           = { :git => 'https://github.com/wolfmcnally/WolfNesting.git', :tag => s.version.to_s }
 
-    s.source_files = 'WolfNesting/Classes/**/*'
+    s.source_files = 'Sources/WolfNesting/**/*'
 
     s.swift_version = '5.0'
 
